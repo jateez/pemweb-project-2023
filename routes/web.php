@@ -25,4 +25,4 @@ Route::get('/groups/create', [GroupController::class, 'create'])->name('groups.c
 Route::post('/groups', [GroupController::class, 'store'])->name('groups.store');
 Route::delete('/groups/{group}', [GroupController::class, 'delete'])->name('groups.delete');
 Route::get('/groups/{group}', [GroupController::class, 'show'])->name('groups.show');
-
+//tes
